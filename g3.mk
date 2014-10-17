@@ -188,6 +188,7 @@ PRODUCT_PACKAGES += \
     init.galbi.early_boot.sh \
     init.galbi-sensor.sh \
     init.galbi.sh \
+    init.galbi.led.sh \
     init.galbi.syspart_fixup.sh \
     init.galbi.usb.sh \
     ueventd.g3.rc

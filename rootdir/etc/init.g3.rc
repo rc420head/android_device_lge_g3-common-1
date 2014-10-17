@@ -1116,6 +1116,9 @@ on property:crypto.driver.load=0
      exec /system/bin/rmmod qcedev.ko
      exec /system/bin/rmmod qce.ko
 
+on property:dev.bootcomplete=1
+    exec /system/bin/sh /system/etc/init.galbi.led.sh
+
 on property:drmdiag.load=1
     start drmdiag
 
@@ -1299,4 +1302,3 @@ on property:wifi_ftm.diagd_start=0
 
 on usb_debug
     start usbdebug-manager
-
