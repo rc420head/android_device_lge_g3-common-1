@@ -257,9 +257,9 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">0</integer>
 
-    <!-- Performance profiles -->
+    <!-- Performance profiles 
     <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string>
+    <string name="config_perf_profile_default_entry">1</string> -->
 
     <!-- Base "touch slop" value used by ViewConfiguration as a
          movement threshold where scrolling should begin. -->
